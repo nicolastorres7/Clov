@@ -1,0 +1,273 @@
+/*Generales*/
+
+#body__color{
+    background-color: #FFFFFF;
+}
+
+/*Navegador*/
+
+#menuNav{
+    background-color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Home*/
+
+.seccionInferior{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.home__titulos{
+    font-family: 'Abril Fatface', cursive;
+    color: #D8BBAC;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.home__textos{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+/*Nosotras*/
+
+#nosotras__seccion{
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+.nosotras__vickytitulo, .nosotras__camititulo{
+    font-family: 'Abril Fatface', cursive;
+    color: #D2B1BC;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.nosotras__vicky,.nosotras__cami {
+    background-color:#F4E2D6;
+    text-align: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#nosotras__imagenvicky,#nosotras__imagencami{
+    padding: 0;
+}
+
+/*Servicios*/
+
+#packs__seccion{
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.packs__textos{
+    margin-top: 15px;
+    text-align: left;
+}
+.packs__lista{
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  text-align: left;
+}
+/*Pack Imagen*/
+
+#packs__imgs{
+    width: 70%;
+    height: 70%;
+    transition: 0.75s;
+    border: none;
+}
+#packs__imgs:hover{
+    width: 82%;
+    height: 82%;
+}
+
+/*Redes*/
+
+#redes__img{
+  height: 95%;
+  width: 95%;
+}
+
+#redes__contenedor{
+  margin-top: 20px;
+}
+#redes__contenedorlogos{
+  width:auto;
+  height:150px;
+  line-height:140px;
+  margin:0px auto;
+  text-align:center;
+  }
+
+.redes__logos{
+  vertical-align:middle;
+}
+
+/*Branding*/
+
+.contenedorflex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#branding__imgs{
+    height: 38rem;
+    width: 26rem;
+}
+
+.img-container {
+    height: 38rem;
+    width: 26rem;    
+    position: relative; 
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.img-container:before {
+  content: '';
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  background: #000;
+  opacity: 0;
+  transition: opacity .3s linear;   
+}
+
+.img-container:hover:before { 
+  opacity: .75;
+}
+
+.img-container p.branding__texto {
+  width: inherit;  
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 100%; 
+  transition: top .3s linear;
+  font-size: 1.3rem;
+}
+
+.img-container:hover p.branding__texto {    
+  top: 70%;
+}
+
+#modal__boton{
+    background-color: #F4E2D6;
+    border: 1px solid #6c757d;
+    color: #6c757d;
+}
+
+/*Contacto*/
+
+#contacto__texto{
+  margin-top: 100px;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#contacto__fieldset{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+h2{
+  text-align: center;
+}
+
+#contacto__check{
+  border: 2px solid #9e9e9e;
+  font-size: 17px;
+  padding: 15px;
+  margin: 10px 0px;
+  color: #6c757d;
+  text-align: start;
+}
+
+
+.contact-form input, .contact-form textarea {
+    font-size: 17px;
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #9e9e9e;
+    margin: 10px 0px;
+    color:black;
+}
+
+.contact-form .submit-button {
+    background: #3b74af;
+    color: #FFF;
+    cursor: pointer;
+    border:none;
+}
+
+/*Footer*/
+
+footer{
+    border-top: 1px solid #333333;
+}
+.FooterTexto{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+}
+.infoFooter{
+       text-align: center;
+       margin-top: 10px;
+}
+
+/*Media Queries*/
+
+/*Mobile*/
+
+@media (max-width: 760px) {
+    .bannerDesktop{
+        display: none
+    }   
+    #packs__imgs{
+      width: 100%;
+      height: 80%;
+    }
+    #packs__imgs:hover{
+      width: 100%;
+      height: 80%;
+    }
+    #redes__contenedorlogos{
+      height: auto;
+      margin-bottom: 40px;
+    }
+    #nosotras__seccion{
+      margin: 5%;
+    }
+    #redes__img{
+      height: 100%;
+      width: 100%;
+      padding: 0;
+    }
+    #redes__aside{
+      padding: 0;
+    }
+    #contacto__texto{
+      margin-top: 30px;
+    }
+}
+
+
+/*Desktop*/
+
+@media (min-width: 760px) {
+    .bannerMobile{
+        display: none
+    }
+}
+
+

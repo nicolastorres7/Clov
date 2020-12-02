@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@100;400;500&display=swap" rel="stylesheet">
+
+	<title>Branding - Community Clov</title>
+</head>
+<body>
+<!--Navegador-->
+	<nav id="menuNav" class="navbar navbar-expand-md flex-column navbar-light">
+	 <a class="navbar-brand align-self-center m-0 pb-3 position-md-absolute pb-md-0" href="index.html"><img src="img/logo.png" width="180vh" alt=""></a>
+	 <button class="navbar-toggler align-self-start" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	 <div class="collapse navbar-collapse justify-content-md-center w-100" id="navbarNav">
+	  <ul class="navbar-nav text-center">
+	   <li class="nav-item">
+	    <a class="nav-link" href="nosotras.html">Nosotras</a>
+	   </li>
+	  <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Servicios
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="packredes.html">Pack Redes</a>
+          <a class="dropdown-item" href="packimagen.html">Pack Imagen</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Asesorías</a>
+        </div>
+      </li>
+	  <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Portfolio
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="redes.html">Redes</a>
+          <a class="dropdown-item" href="branding.html">Branding</a>
+        </div>
+      </li>
+	   <li class="nav-item">
+	    <a class="nav-link" href="contacto.html">Contacto</a>
+	   </li>
+	  </ul>
+	 </div>
+	</nav>
+<!--Branding-->
+	<div class="contenedorflex row">
+		<div class="img-container" data-toggle="modal" data-target="#modalmirka">
+	   		<img src="img/brandingmirka.jpg" id="branding__imgs">
+	    	<p class="branding__texto" data-toggle="modal" data-target="#modalmirka">Hace click aquí para más información</p>
+		</div>
+		<div class="img-container" data-toggle="modal" data-target="#modalcaroherrmann">
+	   		<img src="img/brandingcaroherrmann.jpg" id="branding__imgs">
+	    	<p class="branding__texto" data-toggle="modal" data-target="#modalcaroherrmann">Hace click aquí para más información</p>
+		</div>
+	</div>	
+	<div class="contenedorflex row">
+		<div class="img-container" data-toggle="modal" data-target="#modalbruder">
+	   		<img src="img/brandingbruder.jpg" id="branding__imgs">
+	    	<p class="branding__texto" data-toggle="modal" data-target="#modalbruder">Hace click aquí para más información</p>
+		</div>
+		<div class="img-container" data-toggle="modal" data-target="#modalflortorres">
+	   		<img src="img/brandingflortorres.jpg" id="branding__imgs">
+	    	<p class="branding__texto" data-toggle="modal" data-target="#modalflortorres">Hace click aquí para más información</p>
+		</div>
+	</div>
+	<div class="contenedorflex row">
+		<div class="img-container" data-toggle="modal" data-target="#modalbellarena">
+	   		<img src="img/brandingbellarena.jpg" id="branding__imgs">
+	    	<p class="branding__texto" data-toggle="modal" data-target="#modalbellarena">Hace click aquí para más información</p>
+		</div>
+		<div class="img-container" data-toggle="modal" data-target="#modalalmamia">
+	   		<img src="img/brandingalmamia.jpg" id="branding__imgs">
+	    	<p class="branding__texto" data-toggle="modal" data-target="#modalalmamia">Hace click aquí para más información</p>
+		</div>
+	</div>
+<!--Modal Mirka-->
+	<div class="modal fade" id="modalmirka" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	      	<img src="img/manualmirka.jpg" width="100%" alt="">
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" id="modal__boton" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+<!--Modal Caro Herrmann-->	
+	<div class="modal fade" id="modalcaroherrmann" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	      	<img src="img/manualcaroherrmann.jpg" width="100%" alt="">
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" id="modal__boton" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+<!--Modal Bruder-->
+	<div class="modal fade" id="modalbruder" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	      	<img src="img/manualbruder.jpg" width="100%" alt="">
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" id="modal__boton" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+<!--Modal Flor Torres-->
+	<div class="modal fade" id="modalflortorres" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	      	<img src="img/manualflortorres.jpg" width="100%" alt="">
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" id="modal__boton" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+<!--Modal Bella Rena-->
+	<div class="modal fade" id="modalbellarena" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	      	<img src="img/manualbellarena.jpg" width="100%" alt="">
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" id="modal__boton" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+<!--Modal Alma Mia-->
+	<div class="modal fade" id="modalalmamia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	      	<img src="img/manualalmamia.jpg" width="100%" alt="">
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" id="modal__boton" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+<!--Footer-->
+	<footer>
+		<section class="row container-fluid">
+			<div class="col-md-12 infoFooter">
+				<a href="https://instagram.com/communityclov" target="_blank"><img src="img/instagram.svg" width="30vh" alt=""></a>
+				<a href="https://facebook.com/communityclov" target="_blank"><img src="img/facebook.svg" width="30vh" alt=""></a>
+				<a href="https://www.pinterest.es/communityclov" target="_blank"><img src="img/pinterest.svg" width="30vh" alt=""></a>
+				<p class="FooterTexto">Conectate con nosotras.</p>
+			</div> 
+		</section>
+	</footer>
+
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
