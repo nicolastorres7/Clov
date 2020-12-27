@@ -19,7 +19,7 @@
 }
 
 .home__titulos{
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Arima Madurai', cursive;
     color: #D8BBAC;
     font-size: 2.2rem;
     text-align: center;
@@ -28,6 +28,7 @@
 .home__textos{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    font-size: 1.2rem;
 }
 
 /*Nosotras*/
@@ -49,9 +50,6 @@
     text-align: center;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
-}
-
-#nosotras__imagenvicky,#nosotras__imagencami{
     padding: 0;
 }
 
@@ -65,6 +63,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.packs__quote{
+    margin-top: 15px;
+    margin-bottom: -10px;
+}
 .packs__textos{
     margin-top: 15px;
     text-align: left;
@@ -171,15 +173,24 @@
 /*Contacto*/
 
 #contacto__texto{
-  margin-top: 100px;
-  font-size: 25px;
-  font-family: 'Montserrat', sans-serif;
-  color: #D8BBAC;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 75px;
+  margin-bottom: 50px;
+  margin-right: 40px;
+  font-size: 1.4rem;
+  font-family: 'Arima Madurai', cursive;
+  color: #FFFFFF;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  background-image: url('../img/contacto.jpg')
 }
 
 #contacto__fieldset{
   margin-top: 40px;
   margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h2{
@@ -188,7 +199,7 @@ h2{
 
 #contacto__check{
   border: 2px solid #9e9e9e;
-  font-size: 17px;
+  font-size: 1rem;
   padding: 15px;
   margin: 10px 0px;
   color: #6c757d;
@@ -197,7 +208,7 @@ h2{
 
 
 .contact-form input, .contact-form textarea {
-    font-size: 17px;
+    font-size: 1rem;
     width: 100%;
     padding: 15px;
     border: 2px solid #9e9e9e;
